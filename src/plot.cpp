@@ -1,4 +1,4 @@
-#include "plot.hpp"
+#include <plot.hpp>
 
 // cannot call Py_Init and Py_Fin each time Plot::run() is used
 bool python::instance_running = false;
